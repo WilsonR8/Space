@@ -1,7 +1,0 @@
-package Model;
-EnemyModel=Enemy; 
-
-public class Logic {
-
-
-}
