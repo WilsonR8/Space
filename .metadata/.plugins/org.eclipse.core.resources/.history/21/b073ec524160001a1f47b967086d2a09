@@ -29,9 +29,7 @@ public void paint() {
 
 public void MoveHero() {
 	
-		
-	}
 	
 }
 
-
+}

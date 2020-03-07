@@ -23,15 +23,11 @@ public void paint() {
 	Enemy[i].moveEne();
 	}
 	
-	Hero.paintHero();	
-}
-
-
-public void MoveHero() {
+	Hero.paintHero();
 	
-		
-	}
 	
 }
 
 
+
+}

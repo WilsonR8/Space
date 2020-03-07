@@ -15,19 +15,15 @@ public class EnemyModel extends CharacterModel {
 	}
 
 	public void moveEne() {
-		if (this.posY > 0) {
-			this.posX += this.vel;
-		}
-		if (this.posX == 500) {
+		
+			if (this.posX < 500) {
 			this.posX = 0;
 			this.posY += 20;
 			this.posX -= this.vel;
-		} else {
-			if (this.posX == 0) {
-				this.posY += 20;
-				this.posX += this.vel;
-			}
+		} 
 		}
-	}
+		
+		}
+	
 
-}
+

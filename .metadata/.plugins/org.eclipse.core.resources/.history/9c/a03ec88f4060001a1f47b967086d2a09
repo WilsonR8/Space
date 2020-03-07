@@ -23,15 +23,15 @@ public void paint() {
 	Enemy[i].moveEne();
 	}
 	
-	Hero.paintHero();	
-}
+	Hero.paintHero();
 
-
-public void MoveHero() {
 	
-		
-	}
 	
 }
 
 
+public void keyCode('a') {
+	
+}
+
+}}
