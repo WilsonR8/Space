@@ -1,0 +1,14 @@
+package Controller;
+import Model.Logic;
+
+public class ScreenTwoController {
+
+	Logic LogicControl;
+	
+public void paintControl() {
+	LogicControl.Paint();
+}
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+package Model;
+
+
+public class Logic {
+	
+	EnemyModel Enemy;
+	
+	
+public void Paint() {
+	
+	Enemy.paintEne();
+}
+
+}

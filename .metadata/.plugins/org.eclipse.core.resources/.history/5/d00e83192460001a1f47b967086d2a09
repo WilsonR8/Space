@@ -1,0 +1,13 @@
+package View;
+
+import Controller.ScreenTwoController;
+
+public class ScreenTwoView {
+	
+ScreenTwoController View2C;
+
+public void paintView() {
+	LogicControl().paintControler();
+}
+
+}

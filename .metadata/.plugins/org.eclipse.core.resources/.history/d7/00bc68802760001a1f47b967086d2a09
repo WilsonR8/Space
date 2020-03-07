@@ -1,0 +1,22 @@
+package Model;
+
+import processing.core.PApplet;
+
+public class Logic {
+	
+	EnemyModel Enemy;
+	
+	public Logic(PApplet app) {
+		Enemy = new EnemyModel(posX, posY, tam, vel, app);
+		this.app=app;
+		this.posX=posX;
+	}
+	
+public void paint() {
+	
+	Enemy.paintEne();
+}
+
+
+
+}

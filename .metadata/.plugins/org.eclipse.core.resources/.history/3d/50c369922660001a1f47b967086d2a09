@@ -1,0 +1,19 @@
+package Model;
+
+
+public class Logic {
+	
+	EnemyModel Enemy;
+	
+	public Logic(PApplet app) {
+		Enemy = new EnemyModel(posX, posY, tam, vel, app);
+	}
+	
+public void paint() {
+	
+	Enemy.paintEne();
+}
+
+
+
+}

@@ -1,0 +1,21 @@
+package View;
+
+import Controller.ScreenTwoController;
+import Model.Logic;
+import processing.core.PApplet;
+
+public class ScreenTwoView {
+	
+ScreenTwoController View2C;
+PApplet app;
+public ScreenTwoController(PApplet app) {
+	LogicControl = new Logic(app);
+	this.app=app;
+
+public void paintView() {
+	View2C.paintControl();
+	
+}
+
+
+}

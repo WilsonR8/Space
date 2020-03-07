@@ -1,0 +1,18 @@
+package Model;
+
+import processing.core.PApplet;
+
+public class HeroModel extends CharacterModel{
+	
+	public HeroModel(int posX, int posY, int tam, int vel, PApplet app) {
+		super(posX, posY, tam, vel, app);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void paintHero() {
+		app.fill(250,172,198);
+		app.rect( this.posX, this.posY, this.tam + 10, this.tam);
+	}
+	
+
+}

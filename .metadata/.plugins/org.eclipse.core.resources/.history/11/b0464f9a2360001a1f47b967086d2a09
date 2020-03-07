@@ -1,0 +1,12 @@
+package Controller;
+import Model.Logic;
+
+public class ScreenTwoController {
+
+	Logic LogicControl;
+	
+	
+	
+	
+	
+}
