@@ -13,6 +13,12 @@ public class ScreenTwoController {
 	
 public void paintControl() {
 	LogicControl.paint();
+	
+}
+
+public void moveControl() {
+	LogicControl.MoveHero();
+
 }
 	
 	

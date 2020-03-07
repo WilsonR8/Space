@@ -32,8 +32,13 @@ public void draw() {
 	
 	View2.paintView();
 	
-	
-	
-}
 
 }
+
+public void keyPressed() {
+	View2.moveView();
+		
+	}
+}
+
+

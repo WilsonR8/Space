@@ -1,0 +1,17 @@
+package Model;
+
+import processing.core.PApplet;
+
+public class BulletModel extends CharacterModel {
+
+	public BulletModel(int posX, int posY, int tam, int vel, PApplet app) {
+		super(posX, posY, tam, vel, app);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void paintBullet() {
+		app.fill(242, 118, 248);
+		app.rect(this.posX, this.posY, this.tam + 5, this.tam);
+	}
+
+}

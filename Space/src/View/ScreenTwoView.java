@@ -15,7 +15,10 @@ public class ScreenTwoView {
 
 	public void paintView() {
 		View2C.paintControl();
-
+	}
+	
+	public void moveView() {
+		View2C.moveControl();
 	}
 
 }
