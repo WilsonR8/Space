@@ -13,6 +13,7 @@ public class CharacterModel {
 		this.posX=posX;
 		this.posY=posY;
 		this.tam=tam;
+		this.vel=vel;
 		this.app=app;
 		  
 	}
